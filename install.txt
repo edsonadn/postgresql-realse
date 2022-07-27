@@ -1,0 +1,17 @@
+#install in ubuntu
+
+sudo apt install postgresql postgresql-contrin
+
+#install interface
+
+sudo apt install pqadmin3
+
+#init data base
+
+sudo -u postgres psql 
+
+usuario: postgres
+
+cambia contraseña para una base de datos activa
+
+alter user postgres with password 'contraseña'
